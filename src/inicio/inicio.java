@@ -21,7 +21,7 @@ public class inicio {
         
         Servicio servicio = new Servicio();       
         
-        timer.schedule(servicio,0,10000);
+        timer.schedule(servicio,0,60000);
     }
     
     

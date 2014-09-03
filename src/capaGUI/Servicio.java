@@ -19,7 +19,7 @@ public class Servicio extends TimerTask{
 
     @Override
     public void run() {
-     LeerArchivo Larchivo = new LeerArchivo ();
+     LeerArchivos Larchivo = new LeerArchivos ();
              
      Larchivo.leer();
     }
